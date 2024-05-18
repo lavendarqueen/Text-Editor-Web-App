@@ -41,7 +41,27 @@ I collaborated with Tutor Megan Meyers.
 
 I also consulted the following third-party assets:
 
-Starter code from the University of Denver Coding Bootcamp: https://github.com/coding-boot-camp/cautious-meme
+- Starter code from the University of Denver Coding Bootcamp: https://github.com/coding-boot-camp/cautious-meme
+- Babel JavaScript compiler: https://babeljs.io/
+- Lighthouse: https://developer.chrome.com/docs/lighthouse
+- mdn web docs Cache: https://developer.mozilla.org/en-US/docs/Web/API/Cache
+- mdn web docs ES6 import syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+- mdn web docs: IndexedDB API: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+  mdn web docs manifest.json: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json
+- mdn web docs Progressive web apps: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+- mdn web docs Service Worker API: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+- npm concurrently: https://www.npmjs.com/package/concurrently
+- npm css-loader: https://www.npmjs.com/package/css-loader
+- npm idb: https://www.npmjs.com/package/idb
+- webpack DevServer: https://webpack.js.org/configuration/dev-server/
+- webpack documentation: https://webpack.js.org/
+- webpack HtmlWebpackPlugin: https://webpack.js.org/plugins/html-webpack-plugin/
+- webpack Hot Module Replacement: https://webpack.js.org/concepts/hot-module-replacement/
+- webpack-pwa-manifest: https://www.npmjs.com/package/webpack-pwa-manifest
+- Workbox caching-strategies-overview
+- Workbox Overview: https://developer.chrome.com/docs/workbox/
+- Workbox Service worker overview: https://developer.chrome.com/docs/workbox/service-worker-overview
+- Workbox Strategies for service worker caching: https://developer.chrome.com/docs/workbox/
 
 ## License
 
