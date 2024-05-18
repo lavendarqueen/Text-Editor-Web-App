@@ -1,8 +1,87 @@
 # Text-Editor-Web-App
 
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![Babel](https://img.shields.io/badge/Babel/Core-7.15.0-yellow)
+![Webpack](https://img.shields.io/badge/webpack-5.51.1-blue)
+![Workbox](https://img.shields.io/badge/Workbox-6.2.4-orange)
+
 ## Description
 
-A single page web app text editor that meets PWA requirements.
+Text-Editor-Web-App is a single page web app text editor that meets Progressive Web Application (PWA) requirements - a motivation factor in building the application. The application provides a simple text-editor where the user can record and save notes and/or code snippets. In building this project, I learned about the use of webpack for bundling, Babel for compiling, and Workbox service workers.
+
+## Table of Contents (Optional)
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Contributions](#contributions)
+- [Questions](#questions)
+- [User Story](#user-story)
+
+## Installation
+
+Installation requires running the following script:
+
+npm run start
+
+## Usage
+
+To use the text editor, click the link to the deployed website:
+
+https://text-editor-web-app.onrender.com
+
+Then click on the "INSTALL" button and starting on or below line 10, start recording and saving your code snippets!
+
+![Text-Editor with code snipped](/client/dist/assets/screenshots/ScreenshotTextEditor.png)
+
+## Credits
+
+I collaborated with Tutor Megan Meyers.
+
+I also consulted the following third-party assets:
+
+Starter code from the University of Denver Coding Bootcamp: https://github.com/coding-boot-camp/cautious-meme
+
+## License
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+Copyright (c) 2024 Phyllis Ann Lataille
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Contributions
+
+Any contributions made in the spirit of sharing ideas and concepts, will be greatly appreciated. If you have any suggestions that would make this app better, please fork the repo and create a pull request. You can also open an issue with the tag "contribute". Please give this project a star!
+
+### Instructions for forking:
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/fileName)
+3. Commit your Changes (git commit -m)
+4. Push to the Branch (git push origin feature/newFeature)
+5. Open a Pull Request
+
+## Questions
+
+Please reach out by email or visit my GitHub account with any questions:
+
+- Email: lataillep@gmail.com
+- GitHub: https://github.com/lavendarqueen/
+- Deployed Website: https://text-editor-web-app.onrender.com
+- GitHub Repository: https://github.com/lavendarqueen/Text-Editor-Web-App
 
 ## User Story
 
@@ -10,7 +89,7 @@ AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 GIVEN a text editor web application
 WHEN I open my application in my editor
@@ -37,71 +116,3 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
-
-# <Your-Project-Title>
-
-## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
